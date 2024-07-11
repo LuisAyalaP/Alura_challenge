@@ -1,0 +1,139 @@
+.section {
+  z-index: 1;
+  grid-column-gap: 60px;
+  grid-row-gap: 60px;
+  grid-template-rows: auto;
+  grid-template-columns: 7fr 3fr;
+  grid-auto-columns: 1fr;
+  justify-content: space-between;
+  align-items: stretch;
+  height: 80vh;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  display: grid;
+}
+
+.form_container {
+  z-index: 2;
+}
+
+.products_container {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
+
+.header_bar {
+  background-color: #333;
+  width: 100%;
+  height: 80px;
+}
+
+.logo {
+  max-width: 110px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+}
+
+.product_card {
+  border-radius: 12px;
+  padding: 22px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+}
+
+.image_wrapper {
+  height: 200px;
+}
+
+.description_container {
+  position: relative;
+}
+
+.product_title {
+  font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.delete_product {
+  width: 20px;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: auto;
+  right: 0%;
+}
+
+.heading_1 {
+  text-align: center;
+  font-size: 28px;
+  line-height: 30px;
+}
+
+.heading_1.white {
+  color: #fff;
+}
+
+.form-block {
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.send_button {
+  background-color: #333;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.reset_button {
+  color: #333;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #333;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.buttons_wrapper {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.text-field {
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #333;
+  width: 100%;
+}
+
+.heading_2 {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.heading_2.white {
+  color: #fff;
+}
+
+.paragraph {
+  color: #fff;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#w-node-_63639f10-34cf-7a52-c727-b54182cdf4c6-c33c39ea {
+  align-self: end;
+}
